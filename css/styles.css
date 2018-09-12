@@ -32,6 +32,8 @@ li {
   font-family: verdana;
   font-size: 14px;
   text-align: left;
+  list-style-type: None;
+  margin: 14px;
 }
 
 p {
