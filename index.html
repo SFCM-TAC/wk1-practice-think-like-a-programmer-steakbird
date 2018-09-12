@@ -3,26 +3,24 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <h1>About You</h1>
+    <h1 class="heading">About You</h1>
     <div class="question">Name</div>
-    <div class="answer">
+    <div class="answer">Kris</div>
+    <div class="question">Degree/Graduation Year:</div>
+    <div class="answer">TAC/ 2020</div>
 
-      YOUR ANSWER HERE
 
-    </div>
-    <div class="question">Degree/Graduation Year</div>
-    <div class="answer">
 
-      YOUR ANSWER HERE
 
-    </div>
+
+
     <div class="question">
       What experience (if any) do you have with programming?
       (None is fine!)
     </div>
     <div class="answer">
 
-      YOUR ANSWER HERE
+     Moderate to intermediate experience with Touch Designer, very little python experience, briefly touched upon open processing
 
     </div>
     <div class="question">
@@ -30,18 +28,30 @@
     </div>
     <div class="answer">
 
-      YOUR ANSWER HERE
-
+I would like to build a musical app/simple sampling playback DAW
     </div>
 
-    <h1>Think Like a Programmer</h1>
-    <div class="question">
+    <h1 class="heading">Think Like a Programmer</h1>
+    <div class="question" id="para3">
       Pretend you are writing a plugin that automatically harmonizes with MIDI input.
       What instructions would you give a computer to do this programmatically?
     </div>
     <div class="answer">
+<h3 class="heading">
+  <p>
+  <nl>
+<li>1. Identify a range of notes
+<li>2. Identify different
+<li>3. Quantization/scale settings
+<li>4. Define harmonization rules for different quantization settings
+<li>5. Listen for midi note input
+<li>6. When a midi note is played, determine which note that is
+<li>7. Refer to scale and quantization setting and determine where the played note falls onto the scale
+<li>8. Play next 3 harmonically correct notes depending on quantization settings
+  </nl>
+    </p>
+    </h3>
 
-      YOUR ANSWER HERE
 
     </div>
     <div class="question">
@@ -52,8 +62,14 @@
       and methods (e.g. "playPitch()") would be useful.
     </div>
     <div class="answer">
-
-      YOUR ANSWER HERE
+<p>
+A guitar can be broken down into a few corresponding objects. Strings can be thought of as separate objects, but grouped together in the same class
+(they should be given different id parameters though). Tuning pegs can also be objects that are acted upon to change tuning. In our string example,
+the string can have various properties like material, thickness, or brand. An event occurs when something triggers an action with an object.
+An event might be when the string is plucked, when a finger is pressed on the fretboard, or even when the guitar is slammed against the ground. A method
+as far as I know is a function that is run to produce a result. So the event stringPluck would call the method playPitch() to occur whenever it happened,
+and similarly an event called retuning could call the method reduceTension() on the tuning peg object.
+  </p>
 
     </div>
 
