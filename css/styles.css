@@ -1,1 +1,42 @@
-/* TODO: Add your styles here */
+body{
+  background-color:#FFFFF0;
+  margin: 50px 20%;
+  padding: 1px;
+
+  }
+c
+
+#para3 {
+  font-style: oblique;
+}
+
+.heading{
+  text-align: center;
+  border: 2px;
+  border-style:dashed;
+}
+
+div.question {
+  text-shadow: 3px 2px pink;
+  font-family: verdana;
+  padding: 5px;
+  }
+
+.answer {
+  font-family: verdana;
+  font-size: 14px;
+
+}
+
+li {
+  font-family: verdana;
+  font-size: 14px;
+  text-align: left;
+}
+
+p {
+    font-family: verdana;
+    font-size: 14px;
+  text-align: justified;
+  text-indent: 20px;
+}
